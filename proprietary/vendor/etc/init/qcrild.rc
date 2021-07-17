@@ -4,7 +4,6 @@ service vendor.qcrild /vendor/bin/hw/qcrild
     disabled
     group radio cache inet misc audio log readproc wakelock oem_2901
     capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
-    writepid /dev/cpuset/system-background/tasks
 
 service vendor.qcrild2 /vendor/bin/hw/qcrild -c 2
     class main
@@ -12,7 +11,6 @@ service vendor.qcrild2 /vendor/bin/hw/qcrild -c 2
     disabled
     group radio cache inet misc audio log readproc wakelock oem_2901
     capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
-    writepid /dev/cpuset/system-background/tasks
 
 service vendor.qcrild3 /vendor/bin/hw/qcrild -c 3
     class main
@@ -20,4 +18,3 @@ service vendor.qcrild3 /vendor/bin/hw/qcrild -c 3
     disabled
     group radio cache inet misc audio log readproc wakelock oem_2901
     capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
-    writepid /dev/cpuset/system-background/tasks

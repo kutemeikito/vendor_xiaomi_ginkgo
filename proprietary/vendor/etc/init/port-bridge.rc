@@ -18,4 +18,3 @@ service vendor.port-bridge /system/vendor/bin/port-bridge
     user radio
     group radio system inet
     oneshot
-    writepid /dev/cpuset/system-background/tasks
