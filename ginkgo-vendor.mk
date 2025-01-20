@@ -418,6 +418,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
     vulkan.adreno \
+    libC2D2 \
     libCB \
     libI420colorconvert \
     libOpenCL \
@@ -443,6 +444,7 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti \
     libbt-hidlclient \
     libbtnv \
+    libc2d30_bltlib \
     libcapiv2svacnn \
     libcapiv2vop \
     libcdsp_default_listener \
@@ -502,6 +504,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_tintless_algo \
     libmmcamera_tintless_bg_pca_algo \
     libmmosal \
+    libpvr \
     libqcc_file_agent \
     libqcci_legacy \
     libqdi \
@@ -1765,7 +1768,6 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
-    libpvr \
     libqcbor \
     libqcmaputils \
     libqcrilFramework \
@@ -1993,3 +1995,11 @@ PRODUCT_PACKAGES += \
     xtwifi-client \
     xtwifi-inet-agent \
     dpmd
+
+PRODUCT_PACKAGES += \
+    libEGL_adreno_libEGL_adreno_symlink32 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink32 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink32 \
+    libEGL_adreno_libEGL_adreno_symlink64 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink64 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink64
