@@ -392,13 +392,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-legacy \
     btaudio_offload_if \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-impl \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
