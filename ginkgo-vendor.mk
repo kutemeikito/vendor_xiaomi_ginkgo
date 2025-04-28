@@ -493,6 +493,9 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libloc_api_v02 \
+    libloc_api_wds \
+    libloc_qwes_iface \
+    libloc_ril_client \
     libloc_socket \
     liblocationservice \
     liblocationservice_glue \
@@ -575,8 +578,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@2.0 \
     vendor.qti.gnss@2.1 \
     vendor.qti.gnss@3.0 \
-    vendor.qti.gnss@4.0-service \
     vendor.qti.gnss@4.0 \
+    vendor.qti.gnss@4.1 \
+    vendor.qti.gnss@4.2 \
+    vendor.qti.gnss@4.3-service \
+    vendor.qti.gnss@4.3 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.dsp@1.0 \
@@ -1711,6 +1717,7 @@ PRODUCT_PACKAGES += \
     consumerir.trinket \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
+    vendor.qti.gnss@4.3-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
@@ -1735,6 +1742,7 @@ PRODUCT_PACKAGES += \
     libQSEEComAPI \
     libSecureUILib \
     libStDrvInt \
+    libaoa \
     libbase64 \
     libcacertclient \
     libcdfw \
@@ -1797,6 +1805,7 @@ PRODUCT_PACKAGES += \
     libsecureui_svcsock \
     libsettings \
     libsi \
+    libslimclient \
     libssd \
     libsystem_health_mon \
     libtime_genoff \
@@ -1924,7 +1933,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter-V1.0-java \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
-    vendor.qti.gnss@4.0-service.xml \
+    vendor.qti.gnss@4.3-service.xml \
     vendor.xiaomi.hardware.misys@1.0.xml \
     vendor.xiaomi.hardware.misys@2.0.xml \
     vendor.xiaomi.hardware.misys@3.0.xml \
@@ -1983,6 +1992,7 @@ PRODUCT_PACKAGES += \
     rmt_storage \
     sensors.qti \
     shsusrd \
+    slim_daemon \
     tftp_server \
     thermal-engine \
     time_daemon \
