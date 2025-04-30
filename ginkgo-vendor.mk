@@ -418,25 +418,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
     vulkan.adreno \
-    libAlacSwDec \
-    libApeSwDec \
     libCB \
-    libFlacSwDec \
     libI420colorconvert \
-    libMpeg4SwEncoder \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAlacDecSw \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxApeDecSw \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
-    libOmxSwVdec \
-    libOmxSwVencMpeg4 \
-    libOmxWmaDec \
     libOpenCL \
     libVkLayer_q3dtools \
     liba2dpoffload \
@@ -555,7 +538,6 @@ PRODUCT_PACKAGES += \
     libssc \
     libssc_default_listener \
     libssrec \
-    libswvdec \
     libsynergy_loc_api \
     libsysmon_cdsp_skel \
     libthermalclient \
@@ -595,7 +577,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     camera.trinket \
-    libOmxDsdDec \
     libSNPE \
     libVDClearShot \
     libVDSuperPhotoAPI \
@@ -1561,7 +1542,6 @@ PRODUCT_PACKAGES += \
     libdepthmapwrapper \
     libdng_sdkvendor \
     libdrc \
-    libdsd2pcm \
     libflash_pmic \
     libft2vendor \
     libhal_dbg \
