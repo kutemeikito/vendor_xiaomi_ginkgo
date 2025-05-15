@@ -11,7 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:$(TARGET_COPY_OUT_ETC)/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml \
     vendor/xiaomi/ginkgo/proprietary/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:$(TARGET_COPY_OUT_ETC)/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml \
     vendor/xiaomi/ginkgo/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_ETC)/sysconfig/qti_whitelist.xml \
-    vendor/xiaomi/ginkgo/proprietary/product/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/xiaomi/ginkgo/proprietary/system_ext/etc/cdma_call_conf.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cdma_call_conf.xml \
     vendor/xiaomi/ginkgo/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/ginkgo/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
@@ -155,7 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
-    vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
@@ -165,7 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
-    vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc \
@@ -353,7 +350,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/proto/sns_ultra_violet.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ultra_violet.proto \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_wrist_tilt_gesture.proto \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/xiaomi/ginkgo/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/ginkgo/proprietary/vendor/firmware/a610_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a610_zap.b00 \
     vendor/xiaomi/ginkgo/proprietary/vendor/firmware/a610_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a610_zap.b01 \
     vendor/xiaomi/ginkgo/proprietary/vendor/firmware/a610_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a610_zap.b02 \
@@ -389,6 +385,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/mibokeh_660_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_660_opencl.bin \
     vendor/xiaomi/ginkgo/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/xiaomi/ginkgo/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
+    vendor/xiaomi/ginkgo/proprietary/vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/10_version_update_ecc_table.sql \
     vendor/xiaomi/ginkgo/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     vendor/xiaomi/ginkgo/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
     vendor/xiaomi/ginkgo/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
@@ -412,6 +409,7 @@ PRODUCT_PACKAGES += \
     audio.primary.trinket \
     sound_trigger.primary.trinket \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.1-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
@@ -432,9 +430,6 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libasn1cper \
-    libasn1crt \
-    libasn1crtx \
     libaudcal \
     libaudio_log_utils \
     libaudioalsa \
@@ -442,6 +437,7 @@ PRODUCT_PACKAGES += \
     libaudioparsers \
     libbatterylistener \
     libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
     libbt-hidlclient \
     libbtnv \
     libc2d30_bltlib \
@@ -507,6 +503,7 @@ PRODUCT_PACKAGES += \
     libpvr \
     libqcc_file_agent \
     libqcci_legacy \
+    libqcodec2 \
     libqdi \
     libqdp \
     libqmi \
@@ -541,14 +538,11 @@ PRODUCT_PACKAGES += \
     libssc \
     libssc_default_listener \
     libssrec \
-    libsynergy_loc_api \
     libsysmon_cdsp_skel \
     libthermalclient \
     libthermalfeature \
     libtinyxml2_1 \
     libxtadapter \
-    libxtwifi_server_protocol \
-    libxtwifi_server_protocol_uri_v3 \
     sensors.ssc \
     libasphere \
     libqcompostprocbundle \
@@ -1690,7 +1684,7 @@ PRODUCT_PACKAGES += \
     libmisoundfx \
     libshoebox \
     com.fingerprints.extension@2.0 \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0_vendor \
     com.qualcomm.qti.imscmservice@2.1_vendor \
@@ -1705,7 +1699,6 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix.default \
     vendor.qti.gnss@4.3-impl \
     vendor.qti.hardware.alarm@1.0-impl \
-    vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
     vendor.xiaomi.hardware.misys@1.0-impl \
     vendor.xiaomi.hardware.misys@2.0-impl \
@@ -1791,6 +1784,7 @@ PRODUCT_PACKAGES += \
     libsettings \
     libsi \
     libslimclient \
+    libspl \
     libssd \
     libsystem_health_mon \
     libtime_genoff \
@@ -1828,7 +1822,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.lce@1.0_vendor \
     vendor.qti.hardware.data.qmi@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
-    vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
     vendor.qti.hardware.radio.ims@1.1 \
@@ -1861,7 +1854,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter@1.0 \
     vendor.qti.hardware.wifi.wifilearner@1.0 \
     vendor.qti.ims.callcapability@1.0 \
-    vendor.qti.ims.callinfo@1.0 \
+    vendor.qti.ims.callinfo@1.0_vendor \
     vendor.qti.ims.factory@1.0 \
     vendor.qti.ims.factory@1.1 \
     vendor.qti.ims.rcsconfig@1.0_vendor \
@@ -1891,8 +1884,6 @@ PRODUCT_PACKAGES += \
     misound_res \
     fm_helium \
     libfm-hci \
-    libsd_sdk_display.qti \
-    libsdm-disp-apis.qti \
     vendor.qti.hardware.fm@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
@@ -1905,19 +1896,31 @@ PRODUCT_PACKAGES += \
     libdpmtcm \
     libimscamera_jni \
     libimsmedia_jni \
+    libmwqemiptablemgr \
     vendor.qti.diaghal@1.0 \
+    vendor.qti.hardware.dpmservice@1.0 \
+    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.1 \
+    SoterService \
     CACertService \
     CneApp \
     FingerprintExtensionService \
     IWlanService \
     TimeService \
     PowerOffAlarm \
-    colorservice \
+    ImsRcsService \
+    QtiTelephony \
+    QtiTelephonyService \
+    atfwd \
+    imssettings \
+    uceShimService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
+    vendor.xiaomi.hardware.misys-V1.0-java \
+    vendor.xiaomi.hardware.misys-V2.0-java \
+    vendor.xiaomi.hardware.misys.V3_0 \
     com.fingerprints.extension \
-    com.qti.snapdragon.sdk.display \
     audiosphere \
     com.qti.dpmframework \
     dpmapi \
@@ -1949,7 +1952,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor.qti.media.c2@1.0-service \
@@ -1966,7 +1968,6 @@ PRODUCT_PACKAGES += \
     irsc_util \
     loc_launcher \
     lowi-server \
-    mlid \
     netmgrd \
     pd-mapper \
     pm-proxy \
@@ -1974,7 +1975,6 @@ PRODUCT_PACKAGES += \
     port-bridge \
     power_off_alarm \
     ppd \
-    qdcmss \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
@@ -1992,9 +1992,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter@1.0-provision \
     wifilearner \
     xtra-daemon \
-    xtwifi-client \
-    xtwifi-inet-agent \
-    dpmd
+    dpmd \
+    tcmd
 
 PRODUCT_PACKAGES += \
     libEGL_adreno_libEGL_adreno_symlink32 \
